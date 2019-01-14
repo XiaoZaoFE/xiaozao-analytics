@@ -75,6 +75,7 @@ a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNo
 
 
 #### Creating Trackers
+**==Please Fucking Set User Info In Sdk In XiaoZao Page #F44336==**
 
 ```
 xa('set', 'basic', { uid: '', app: '' })
