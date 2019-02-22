@@ -6,14 +6,14 @@
 <script>
 (function(i,s,o,g,r,a,m){i['XiaoZaoAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)};
 a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
-(window,document,'script','https://xiaozaoresource.xiaozao.org/jsbin/xiaozao_analytics/xiaozao_analytics_0.0.4.js','xa');
+(window,document,'script','xiaozao_analytics_0.0.4.js','xa');
 </script>
 ```
 
 ###### The above code does four main things:
 
  1. Creates a script element that starts asynchronously downloading the
-    analytics.js JavaScript library from [Here](https://xiaozaoresource.xiaozao.org/jsbin/xiaozao_analytics/xiaozao_analytics_0.0.4.js)
+    analytics.js JavaScript library from Here
 
  2. Initializes a global **xa** function (called the xa() command queue)
     that allows you to schedule commands to be run once the analytics.js
@@ -104,4 +104,4 @@ xa('send', 'event', { ec: 'click', el: 'anywhere' }, ['']);
 
 ### Search
 
-###### [sls.console.aliyun.com](https://sls.console.aliyun.com/next/project/tracking/logsearch/web-tracking)
+###### aliyun
